@@ -9,7 +9,7 @@ int main(void) // finds sum of first 20 integers
   scanf("%d", &count_to);
   while (count++ < count_to) // while
   {
-    sum = sum + count; // statement
+    sum = sum + count * count; // statement
   }
   printf("sum = %d\n", sum); // function statement
 
